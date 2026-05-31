@@ -92,7 +92,7 @@ with mlflow.start_run(run_name="XGBoost_Optimization_Master"):
     })
 
     # Serialize model assets directly onto the disk execution area
-    model_output_file = "best_wellness_tourism_model.joblib"
+    model_output_file = "best_tourism_package_prediction_model_v1.joblib"
     joblib.dump(best_pipeline, model_output_file)
     mlflow.log_artifact(model_output_file, artifact_path="final_model")
     print(f"Successfully tracked model runs. Best F1 Score achieved: {metrics_report['1']['f1-score']:.4f}")

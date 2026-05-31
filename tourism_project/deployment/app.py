@@ -10,7 +10,7 @@ st.set_page_config(page_title="Tourism Package Prediction", layout="centered")
 def load_prediction_pipeline():
     model_path = hf_hub_download(
         repo_id="divyarathod112/tourism-package-prediction-model", # <-- Replace with your HF username
-        filename="tourism-package-prediction-model.joblib"
+        filename="best_tourism_package_prediction_model_v1.joblib"
     )
     return joblib.load(model_path)
 
