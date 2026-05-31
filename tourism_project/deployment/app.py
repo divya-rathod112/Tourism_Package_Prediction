@@ -16,7 +16,7 @@ def load_prediction_pipeline():
 
 model = load_prediction_pipeline()
 
-st.title("Tourism Package Sales Lead Predictor")
+st.title("Tourism Package Prediction")
 st.write("Target potential buyers efficiently. Enter customer profiles below to predict conversion likelihood before calling them.")
 
 st.subheader("Customer Profile Context")

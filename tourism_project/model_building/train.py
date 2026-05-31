@@ -111,4 +111,4 @@ api.upload_file(
     repo_id=MODEL_REPO,
     repo_type="model",
 )
-print("🎉 Production ML pipeline artifact cataloged and synchronized successfully!")
+print("Production ML pipeline artifact cataloged and synchronized successfully!")
