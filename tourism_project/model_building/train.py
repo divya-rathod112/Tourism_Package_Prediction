@@ -21,7 +21,7 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 api = HfApi(token=HF_TOKEN)
 
 HF_USERNAME = "divyarathod112" # <-- Replace with your HF username
-DATASET_REPO = f"{HF_USERNAME}/tourism-package-prediction"
+DATASET_REPO = f"{HF_USERNAME}/Tourism-Package-Prediction"
 MODEL_REPO = f"{HF_USERNAME}/tourism-package-prediction-model"
 
 print("Fetching processing frames from Hugging Face Hub Layer...")
